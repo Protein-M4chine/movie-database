@@ -6,7 +6,7 @@ const Navbar = ({onAddMovie, showCreate, onSort, showSortMenu}) => {
         <nav className="navbar">
             <h1 href="#" id="movie" onClick={() => {window.location.reload()}}>Movie <span>DB</span></h1>
             <div className="button-group">
-                <Button color={!showCreate ? '#73F3AF' : '#ffd699'} text={!showCreate ? 'Add New Movie' : 'Close Form'} onClick={onAddMovie} />
+                <Button color={!showCreate ? '#73F3AF' : '#ffd699'} text={!showCreate ? 'Add Movie' : 'Close Form'} onClick={onAddMovie} />
                 <Button color={!showSortMenu ? '#E5E5E5' : '#ffff66'} text={!showSortMenu ? 'Sort' : 'Close Sort'} onClick={onSort}/>
             </div>
             <hr />
