@@ -1,0 +1,50 @@
+
+#movie{
+    display: inline;
+    cursor: pointer;
+    font-family: Poppins-Medium;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+span{
+    color: #2AAED8;
+}
+
+hr{
+    color: #878787;
+    opacity: 25%;
+}
+
+.button-group {
+    display: inline;
+}
+
+nav button{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #movie{
+        display: block;
+    }
+
+    .button-group{
+        display:inline-block;
+    }
+
+    hr{
+        display: block;
+    }
+    nav button{
+        margin-bottom: 10px;
+        margin-left: 0;
+        width: 80%;
+        margin-right:20%;
+    }   
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+}

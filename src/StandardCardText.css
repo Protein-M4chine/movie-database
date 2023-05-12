@@ -1,0 +1,34 @@
+.card h1{
+    font-family: Poppins-Bold;
+}
+
+.card h2{
+    font-family: Poppins-Light;
+}
+
+.card h3{
+    font-family: Poppins-Light;
+}
+
+.header{
+    display: inline-block;
+    width: 70%;
+}
+
+.footer{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+
+.card button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+@media all and (max-width: 768px){
+    .card{
+        width: 100%;
+    }
+}

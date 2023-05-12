@@ -1,0 +1,12 @@
+button{
+    font-family: Poppins-Light;
+    float: right;
+    cursor: pointer;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style: solid;
+    border-color: #707070;
+    border-width: .1px;
+}

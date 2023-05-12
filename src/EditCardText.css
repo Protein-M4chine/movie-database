@@ -1,0 +1,88 @@
+.header{
+    display: inline-block;
+    width: 70%;
+}
+
+.title{
+    font-family: Poppins-Light;
+    font-size: 110%;
+}
+
+.year{
+    font-family: Poppins-Light;
+    font-size: 150%;
+}
+
+.rating{
+    font-family: Poppins-Light;
+    font-size: 150%;
+}
+
+.runtime{
+    font-family: Poppins-Light;
+    font-size: 150%;
+}
+
+.director{
+    font-family: Poppins-Light;
+    font-size: 110%;
+}
+
+.footer{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+
+.card button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.submit-edit{
+    color: #585858;
+    font-size: 75%;
+    display: inline-block;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #F6F6F6;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 1px;
+}
+
+@media all and (max-width: 1450px){
+    .footer{
+        display: block;
+        width: 100%;
+    }
+
+    .card button{
+        margin-left: 10%;
+        margin-right: 10%;
+        width:80%;
+    }
+}
+
+@media all and (max-width: 768px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 480px){
+    .footer{
+        display: block;
+        width: 100%;
+    }
+
+    .card button{
+        margin-left: 10%;
+        margin-right: 10%;
+        width:80%;
+    }
+}

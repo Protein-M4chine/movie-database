@@ -1,0 +1,27 @@
+.sort-header{
+    color:#464646;
+}
+
+.buttonGroup{
+    margin-top: 15px;
+    display:inline-grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 15px;
+}
+
+.gridDescendButtonGroup{
+    margin-top: 15px;
+    display:grid;
+    justify-content:left
+}
+
+@media all and (max-width: 768px){
+    .buttonGroup{
+       grid-template-columns: auto auto;
+       row-gap: 15px;
+    }
+
+    .buttonGroup button{
+        width: 100%;
+    }
+}
