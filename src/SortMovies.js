@@ -11,7 +11,6 @@ const SortMovies = ({onSort, sortDescending, changeAscendingDescending, updateSe
     return (
         <div className="sort-movies">
             <h1 className="sort-header">Sort By:</h1>
-            <br></br>
             <div className="buttonGroup">
                 <div><Button color={selectedSortButton != "Title" ? "#e6e6e6" : "#b3b3b3"} text="Title" onClick={() => sortButtonOnClick("Title")}/></div>
                 <div><Button color={selectedSortButton != "Year" ? "#e6e6e6" : "#b3b3b3"} text="Year" onClick={() => sortButtonOnClick("Year")}/></div>

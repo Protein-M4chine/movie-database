@@ -101,4 +101,8 @@
         margin-right: 10%;
         width:80%;
     }
+
+    .header input{
+        width: 100%;
+    }
 }

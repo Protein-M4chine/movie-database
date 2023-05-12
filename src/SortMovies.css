@@ -3,7 +3,6 @@
 }
 
 .buttonGroup{
-    margin-top: 15px;
     display:inline-grid;
     grid-template-columns: auto auto auto auto auto auto;
     column-gap: 15px;
@@ -11,6 +10,7 @@
 
 .gridDescendButtonGroup{
     margin-top: 15px;
+    margin-bottom: 30px;
     display:grid;
     justify-content:left
 }
